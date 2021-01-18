@@ -6,10 +6,35 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2ac271e00dc9d9a409651d2e8578c6a4
 {
+    public static $files = array (
+        'bbeb7603826cb9296dde3ca1a840af47' => __DIR__ . '/..' . '/hyperf/utils/src/Functions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'Q' => 
         array (
             'Quan\\Helper\\' => 12,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'Psr\\EventDispatcher\\' => 20,
+            'Psr\\Container\\' => 14,
+        ),
+        'H' => 
+        array (
+            'Hyperf\\Utils\\' => 13,
+            'Hyperf\\Framework\\' => 17,
+            'Hyperf\\Engine\\' => 14,
+            'Hyperf\\Contract\\' => 16,
+        ),
+        'F' => 
+        array (
+            'Fig\\Http\\Message\\' => 17,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Inflector\\' => 19,
         ),
     );
 
@@ -17,6 +42,42 @@ class ComposerStaticInit2ac271e00dc9d9a409651d2e8578c6a4
         'Quan\\Helper\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Hyperf\\Utils\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/utils/src',
+        ),
+        'Hyperf\\Framework\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/framework/src',
+        ),
+        'Hyperf\\Engine\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/engine/src',
+        ),
+        'Hyperf\\Contract\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/contract/src',
+        ),
+        'Fig\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fig/http-message-util/src',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
     );
 

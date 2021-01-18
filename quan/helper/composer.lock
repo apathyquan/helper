@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ae8afe225776c9e36eb257f3a27b5b6",
+    "content-hash": "e80191c69abfa6a5df064f3ca2e89379",
     "packages": [
         {
             "name": "doctrine/inflector",
-            "version": "2.1.x-dev",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "c6a0da4f0e06aa5cd83a2c1a4e449fae98c8bad7"
+                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/c6a0da4f0e06aa5cd83a2c1a4e449fae98c8bad7",
-                "reference": "c6a0da4f0e06aa5cd83a2c1a4e449fae98c8bad7",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
+                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -30,13 +30,18 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^8.2",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
-                "phpstan/phpstan-strict-rules": "^0.12",
+                "doctrine/coding-standard": "^7.0",
+                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-strict-rules": "^0.11",
                 "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
@@ -82,11 +87,11 @@
                 "uppercase",
                 "words"
             ],
-            "time": "2020-10-28T16:09:51+00:00"
+            "time": "2020-05-29T15:13:26+00:00"
         },
         {
             "name": "fig/http-message-util",
-            "version": "dev-master",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message-util.git",
@@ -144,7 +149,7 @@
         },
         {
             "name": "hyperf/contract",
-            "version": "dev-master",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/contract.git",
@@ -198,7 +203,7 @@
         },
         {
             "name": "hyperf/engine",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/engine.git",
@@ -251,7 +256,7 @@
         },
         {
             "name": "hyperf/framework",
-            "version": "dev-master",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/framework.git",
@@ -317,7 +322,7 @@
         },
         {
             "name": "hyperf/utils",
-            "version": "dev-master",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/utils.git",
@@ -390,16 +395,16 @@
         },
         {
             "name": "psr/container",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "381524e8568e07f31d504a945b88556548c8c42e"
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/381524e8568e07f31d504a945b88556548c8c42e",
-                "reference": "381524e8568e07f31d504a945b88556548c8c42e",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -409,12 +414,12 @@
                 ]
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -429,7 +434,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common Container Interface (PHP FIG PSR-11)",
@@ -441,20 +446,20 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2020-10-13T07:07:53+00:00"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/event-dispatcher",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/event-dispatcher.git",
-                "reference": "3ef040d7c05652f55bd05115baf059a445cfc79c"
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/3ef040d7c05652f55bd05115baf059a445cfc79c",
-                "reference": "3ef040d7c05652f55bd05115baf059a445cfc79c",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -484,7 +489,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Standard interfaces for event handling.",
@@ -493,20 +498,20 @@
                 "psr",
                 "psr-14"
             ],
-            "time": "2020-09-18T06:44:18+00:00"
+            "time": "2019-01-08T18:20:26+00:00"
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
-                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -536,7 +541,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -546,12 +551,12 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-09-18T06:44:51+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

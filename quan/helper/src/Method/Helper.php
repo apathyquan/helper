@@ -5,13 +5,13 @@
  * @Author: Quan
  * @Date: 2021-01-09 13:51:27
  * @LastEditors: Quan
- * @LastEditTime: 2021-01-18 11:29:08
+ * @LastEditTime: 2021-01-18 14:14:24
  */
 
 declare(strict_types=1);
 
 
-namespace Quan\Helper\Method;
+namespace Helper\Method;
 
 use Quan\Helper\Method\TraitBlock\UploadTrait;
 use Throwable;
