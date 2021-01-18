@@ -1,0 +1,17 @@
+{
+    "name": "quan/helper",
+    "description": "helper method",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "hyperf/framework": "~2.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quan",
+            "email": "908011399@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
