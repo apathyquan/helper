@@ -13,5 +13,10 @@
             "email": "908011399@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Quan\\Helper\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
